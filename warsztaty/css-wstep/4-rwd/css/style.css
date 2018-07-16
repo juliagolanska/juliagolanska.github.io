@@ -1,3 +1,31 @@
 body {
     background-color: lavender;
 }
+
+/*na urzadzenie o zakresie od 576px*/
+@media (min-width: 576px) {
+    body{
+        background-color: aqua;
+    }
+}
+/*na urzadzenie o zakresie od 678px*/
+@media (min-width: 678px) {
+    body{
+        background-color: red;
+    }
+/*na urzadzenie o zakresie od 998px*/
+   @media (min-width: 998px) {
+    body{
+        background-color: orange;
+       }
+    }
+    
+ /*na urzadzenie o zakresie od 1200px*/
+@media (min-width: 1200px) {
+    body{
+        background-color: pink;
+       }
+    }
+    
+    
+       
