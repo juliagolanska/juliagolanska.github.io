@@ -1,3 +1,24 @@
 body {
     background-color: gold;
 }
+
+.flex-item {
+    color: white;
+    background-color: orange;
+    flex-basis: 25%;
+}
+.flex-item:nth-last-of-type(odd) {
+    background-color: cadetblue;
+}
+
+#container {
+    display: flex;
+    background-color: red;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+/*
+    height: 600px;
+    align-items: flex-end;
+    align-content: flex-start;
+*/
