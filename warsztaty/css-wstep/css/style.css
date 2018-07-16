@@ -1,0 +1,127 @@
+*{
+    color: red;
+}
+
+/*selektor łączony pozwala na połączenie np.. element.klasa = .klasa#id*/
+li.list-item {
+    color: green;
+}
+
+/*pseudoelementy to elementy, ktore nie istnieja w drzewie ale mozemy zamarkowac ich istnienie. Zapoisuejmy za pomoca podwojnego (::) mozemy wstawiac za lub przed znacznikiem. Nie iestnieja dopoki nie ustawimy wlasciwosci content*/
+/*before i after należą do znacznika*/
+ul {
+    list-style: none;
+}
+/*z pseudoelementem*/
+.list-item::before {
+    content:'*';
+}
+/*pseudoklasy - najczesciej uzywane w stosunku do dzialan uzytkownika*/
+/* :hover - najechanie myszka*/
+/*selektory czytamy od prawej do lewej*/
+/*selektory dodajemy bez spacji! BŁĄD a :hover*/
+.list-item a:hover {
+    color: yellow;
+}
+
+/* :focus - aktywne pole formularza*/
+input:focus{
+    border: 2px solid red;
+}
+
+/*pseudoklasy potomstwa: zwracamy uwage na relacje pomiedzy znacznikami tu: pierwsze dziecko, ktore jest li*/
+
+ul li:first-child,
+ul li:last-child {
+    color: blue;
+}
+/*nth-of-child - patrzymy na relacje miedzy znacznikami*/
+/*nth-of-type - patrzymy na konkretne znaczniki*/
+/*
+.list-item:nth-of-type(even) a {
+    color: blueviolet;
+}*/
+
+/*co trzeci od drugiego ma miec ten kolor: NAJPIERW CO ILE a potem od ktorego*/
+/*
+.list-item:nth-of-type(3n + 2) a {
+    color: blueviolet;
+}
+*/
+
+.list-item:nth-child(3n + 2) a {
+    color: blueviolet;
+}
+
+/*selektory atrybutow*/
+/*po nazwie konkretnego atrybutu*/
+input[title] {
+    border: 5px solid yellow;
+}
+/*po konkretnej wartosci atrybutu*/
+input[title="drugi"] {
+    border: 5px solid red;
+}
+
+/*po konkretnym napisie*/
+input[title~="opis"] {
+    border: 5px solid violet;
+}
+
+/*czy zawiera konkretny ciąg znakow*/
+input[title*="czw"] {
+    border: 5px solid grey;
+}
+
+/*czy zaczyna sie na ciąg znakow?*/
+input[title^="pie"] {
+    border: 5px solid blue;
+}
+
+/*czy konczy sie na ciag znakow*/
+input[title$="y"] {
+    border: 5px solid blue;
+}
+
+/*pozycjonowanie*/
+#pozycje {
+    height: 300px;
+    background-color: green;
+    position: relative;
+}
+
+#pozycje .blue {
+    background-color: blue;
+}
+#pozycje .red {
+    background-color: red;
+    left: 100px;
+    top: 35px;
+    position: relative;
+}
+
+#pozycje .red {
+    background-color: red;
+    left: 100px;
+    top: 35px;
+    position: absolute;
+    margin: 0;
+}
+#pozycje p{
+    color: white;
+}
+
+
+#main-nav {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+
+

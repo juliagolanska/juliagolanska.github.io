@@ -1,0 +1,21 @@
+#pozycje {
+    background-color: #a6a9b6;
+    height: 400px;
+    width: 400px;
+    border: 10px solid #666360;
+    position: relative;
+}
+.jasnoszary{
+    background-color: #e4e4e4;
+    height: 200px;
+    width: 200px;
+    left: 200px;
+    position: absolute;
+}
+.pomaranczowy{
+    background-color: #ff912e;
+    height: 200px;
+    width: 200px;
+    top: 200px;
+    position: absolute;
+}

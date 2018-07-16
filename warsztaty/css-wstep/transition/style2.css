@@ -1,0 +1,38 @@
+div[class^=box] {
+    height: 150px;
+    width: 150px;
+    transition: height width 2s ease-in 1s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: green;
+}
+
+.box1:hover {
+    width: 300px;
+    height: 150px;
+    
+}
+
+.box2:hover {
+    width: 150px;
+    height: 300px;
+}
+
+.box3:hover {
+    width: 300px;
+    height: 300px;
+}

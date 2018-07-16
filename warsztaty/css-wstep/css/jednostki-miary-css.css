@@ -1,0 +1,21 @@
+#jednostki-miary > div {
+    background-color: rgba(106, 106, 216, 1);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#piksele {
+    width: 400px;
+}
+
+#em {
+    width: 50em;
+}
+
+#procenty {
+    width: 50%;
+}
+
+#vh {
+    width: 50vh;
+}

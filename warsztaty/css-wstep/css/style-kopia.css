@@ -1,0 +1,14 @@
+body{
+    background-color: pink;
+}
+
+a{
+    color: gray;
+    font-size: 77px;
+    transition: color 2s ease-in 1s;
+/*    powyższą linijke można zapisać kilkoma używając komend z transition*/
+}
+
+a:hover{
+    color: orange;
+}
