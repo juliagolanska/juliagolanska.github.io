@@ -1,4 +1,5 @@
 body {
     background-image: url("../img/logo.png");
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: 400px 100px;
 }
