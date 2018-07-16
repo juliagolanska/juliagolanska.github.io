@@ -1,0 +1,39 @@
+body {
+    background-color: red;
+}
+
+/*
+img {
+    width: 100%;
+    margin: 50px;
+}
+*/
+
+#rotate {
+    transform: rotate(20deg);
+}
+
+#translate {
+    transform: translate(40px, 100px);
+}
+
+#scale {
+    transform: scale(0.5);
+}
+
+@keyframes resize{
+    0%, 100% {
+        width: 100%;
+    }
+    50% {
+        width: 50%;
+    }
+}
+
+#animation {
+    animation-name: resize;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
