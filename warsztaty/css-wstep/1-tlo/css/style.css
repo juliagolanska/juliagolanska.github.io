@@ -1,5 +1,10 @@
 body {
-    background-image: url("../img/logo.png");
+/*
+    background-color: lime;
+    background-image: url("../img/logo-pepepsi.png");
     background-repeat: no-repeat;
     background-position: 400px 100px;
+    background-size: contain;
+*/
+    background: lime url("../img/logo-pepepsi/png") center bottom no-repeat scroll;
 }
