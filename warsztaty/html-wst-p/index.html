@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+<!--    komentarze cmd + /-->
+<!-- możliwie jak najwięcej opisow sekcji-->
+<!--TABELE-->
+<table>
+    <thead>
+       <tr>
+        <th>Id</th>
+        <th>Nazwa</th>
+        <th>Cena</th>
+       </tr> 
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>jabłko</td>
+            <td>10,00 zł</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>pomarańcz</td>
+            <td>15,00 zł</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>rabarbar</td>
+            <td>20,00 zł</td>
+        </tr>
+    </tbody>
+</table>
+
+<!--    FORMULARZ-->
+
+<!--podstwowe pole formularza to input-->
+<!--type mowi o tym co mozna wpisac-->
+<!--name umozliwia nadanie nazwy-->
+<!--placeholder słuzy do opisania inputa-->
+<!--disabled wyłącza nam pole-->
+<form action="" method=""> 
+   <label for="name">Wpisz imię</label>
+    <input type="text" name="name" placeholder="wpisz imię" id="name" required>
+    
+<!--    input[placeholder name]*5 tak dodajemy dodatkowe atrybuty-->
+   <input type="email" placeholder="wpisz email" name="email" id="email">
+   
+   <input type="number" placeholder="wpisz numer" name="name" disabled>
+   
+   <input type="checkbox" placeholder="" name="agree">
+   
+   <input type="radio" placeholder="" name="gender">Kobieta
+   
+   <input type="radio" placeholder="" name="gender">Mężczyzna
+   
+<!--   miejsce na tekst do wpisania-->
+   <textarea name="msg" id="" maxlength="10"></textarea>
+   
+<!--   selekty czyli sobie wybieramy z podanych opcji-->
+    <select name="cars" id="">
+        <option value="audi">audi</option>
+        <option value="mercedes">mercedes</option>
+        <option value="volvo">volvo</option>
+    </select>
+    
+    <input type="submit" value="wyślij">
+    
+</form>
+
+<!--IFRAME-->
+<!--służy do osadzania filmikow, map (generalnie wszystkiego z innych zrodel)-->
+<iframe src="" frameborder="0"></iframe>
+
+<!--SVG czyli grafika wektorowa-->
+<!--można osadzić jako cały kod-->
+<svg style="height: 100px;">
+<path d="M30.148 5.588c-2.934-3.42-7.288-5.588-12.148-5.588-8.837 0-16 7.163-16 16s7.163 16 16 16c4.86 0 9.213-2.167 12.148-5.588l-10.148-10.412 10.148- 10.412zM22 3.769c1.232 0 2.231 0.999 2.231 2.231s-0.999 2.231-2.231 2.231-2.231- 0.999-2.231-2.231c0-1.232 0.999-2.231 2.231-2.231z"></path>
+</svg>
+<!--można osadzić w znaczniku img-->
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+ div[class^="box"]{
+   width: 100px;
+   height: 100px;
+   display: inline-block;
+ }
+  div[class^="circle"]{
+    border-radius: 100%;
+    border: solid black 1px;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    top: 25%;
+    right: -25%;
+  }
+.box-red{
+  background-color: red;
+}
+.box-blue{
+  background-color: blue;
+}
+.box-green{
+  background-color: green;
+}
+.box-yellow{
+  background-color: yellow;
+}
+.box-black{
+  background-color: black;
+}
+.box-orange{
+  background-color: orange;
+}
+.box-purple{
+  background-color: purple;
+  display: inline-block;
+}
+.box-gray{
+  background-color: gray;
+}
+.box-pink{
+  background-color: pink;
+}
+.circle1{
+  background-color: pink;
+}
+.circle2{
+  background-color: gray;
+}
+.circle3{
+  background-color: purple;
+}
+.circle4{
+  background-color: green;
+}
+.circle5{
+  background-color: red;
+}
+.circle6{
+  background-color: blue;
+}
+.circle7{
+  background-color: orange;
+}
+.circle8{
+  background-color: yellow;
+}
+.circle9{
+  background-color: black;
+}
