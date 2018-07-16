@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <form action="https://formspree.io/j.golanska@icloud.com"
+      method="POST">
+    <label for="imie">Imię:</label><br>
+    <input type="text" id="imie" name="imie" placeholder="Wpisz imię"><br>
+    <label for="nazwisko">Nazwisko:</label><br />
+    <input type="text" id="nazwisko" name="nazwisko" placeholder="Wpisz nazwisko"><br>
+    <label for="email">Email:</label><br />
+    <input type="text" id="email" name="email" placeholder="Wpisz email"><br />
+    <label for="numer">Telefon:</label><br />
+    <input type="number" id="numer" name="numer" placeholder="Wpisz numer telefonu"><br />
+    <label for="miasto">Miasto:</label><br />
+    <select name="miasto" id="miasto"><br />
+        <option value="Kraków">Kraków</option>
+        <option value="Warszawa">Warszawa</option>
+        <option value="Gdańsk">Gdańsk</option>
+    </select><br />
+    <p>Płeć:</p>
+    <label for="kobieta" ></label>
+    <input type="radio" name="kobieta" id="kobieta"> Kobieta
+    <label for="mezczyzna"></label>
+    <input type="radio" name="mezczyzna" id="mezczyzna"> Mężczyzna<br />
+    <label for="zgoda">Zgoda na dane osobowe</label>
+    <input type="checkbox" name="zgoda" id="zgoda"><br />
+    <label for="wiadomosc">Wiadomość:</label><br />
+    <textarea placeholder="wpisz wiadomość" name="wiadomosc" id="wiadomosc" maxlength="100"></textarea><br />
+    <input type="submit" value="wyślij"><br />
+    </form>
+</body>
+</html>
