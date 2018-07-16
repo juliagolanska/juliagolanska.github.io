@@ -1,3 +1,28 @@
 body {
     background-color: aqua;
 }
+
+.box{
+    width: 300px;
+    height: 150px;
+    border: 1px solid red;
+    margin: 50px;
+}
+
+#visible {
+    color: blue;
+    overflow: visible;
+}
+
+#hidden {
+    color: green;
+    overflow: hidden;
+}
+
+#scroll {
+    overflow: scroll;
+}
+#auto {
+    color: deeppink;
+    overflow: auto;
+}
