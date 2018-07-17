@@ -1,0 +1,33 @@
+/*urządznia do 992px start*/
+@media (max-width:992px) {
+    div#container{
+        display: flex;
+        flex-direction: column; 
+    }
+    header#main-header{
+        height: 700px;
+        background-image: url(../img/man-1.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    div#text{
+        text-align: center;
+    }
+}
+/*urządznia do 992px stop*/
+
+/*urządznia od 992px do 1170px start*/
+@media (min-width:992px){
+    body {
+        background-color: red;
+    }
+}
+/*urządznia od 992px do 1170px stop*/
+
+/*urządznia od 1170px start*/
+@media (min-width:1170px) {
+    body {
+        background-color: blue;
+    }
+}
+/*urządznia od 1170px stop*/
