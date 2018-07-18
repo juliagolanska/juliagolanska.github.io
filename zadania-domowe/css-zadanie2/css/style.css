@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 div#text{
     font-family: verdana;
 }
@@ -5,7 +8,7 @@ div#text{
 /*urządzenia do 992px start*/
 @media (max-width:992px) {
     header#main-header{
-        height: 300px;
+        height: 80vh;
         background-image: url(../img/man-1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -19,7 +22,7 @@ div#text{
 /*urządzenia od 992px do 1170px start*/
 @media (min-width:992px){
     header#main-header{
-        height: 700px;
+        height: 80vh;
         background-image: url(../img/man-2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -29,8 +32,8 @@ div#text{
         text-align: left;
         color: white;
         position: absolute;
-        top: 100px;
-        right: 20px;  
+        top: 20vh;
+        right: 1vw;  
     }
 }
 /*urządzenia od 992px do 1170px stop*/
@@ -38,7 +41,7 @@ div#text{
 /*urządzenia od 1170px start*/
 @media (min-width:1170px) {
      header#main-header{
-        height: 700px;
+        height: 100vh;
         background-image: url(../img/man-1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -48,8 +51,8 @@ div#text{
         text-align: left;
         color: white;
         position: absolute;
-        top: 300px;
-        left: 50px;
+        top: 50vh;
+        left: 10vw;
     }
 }
 }
