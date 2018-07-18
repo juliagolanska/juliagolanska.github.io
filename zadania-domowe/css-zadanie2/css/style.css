@@ -8,7 +8,7 @@ div#text{
 /*urządzenia do 992px start*/
 @media (max-width:992px) {
     header#main-header{
-        height: 80vh;
+        height: 50vh;
         background-image: url(../img/man-1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -22,7 +22,7 @@ div#text{
 /*urządzenia od 992px do 1170px start*/
 @media (min-width:992px){
     header#main-header{
-        height: 80vh;
+        height: 70vh;
         background-image: url(../img/man-2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
