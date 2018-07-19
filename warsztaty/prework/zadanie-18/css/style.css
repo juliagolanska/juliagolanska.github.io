@@ -1,0 +1,13 @@
+body{
+    background-color: wheat;
+    color: red;
+    font-size: 25px;
+}
+
+article#pierwszy{
+    color: darkred;
+}
+
+article#drugi{
+    color: darkblue;
+}
