@@ -1,0 +1,25 @@
+body{
+    background-color: beige;
+}
+
+div.kwadrat{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+}
+
+
+/*
+div#drugi{
+    opacity: 0,75;
+}
+
+div#trzeci{
+    opacity: 0,5;
+}
+
+div#czwarty{
+    opacity: 0,25
+}
+*/
