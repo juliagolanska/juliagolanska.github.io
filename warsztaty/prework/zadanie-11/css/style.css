@@ -1,0 +1,10 @@
+table {
+    width: 50%;
+    border: solid 1px black;
+}
+
+th, td {
+    border: solid 1px black;
+    width: 10px;
+    white-space: nowrap;
+}
