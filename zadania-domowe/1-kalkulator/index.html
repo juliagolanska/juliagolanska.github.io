@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="kalkulator">
+       
+        <div id="rzad0"></div>
+        <div id="rzad1">
+            <button class="dlugi del" onclick="czysc()">Del</button>
+            <button class="dzialania" onclick="pobierz(%)">%</button>
+            <button class="dzialania" onclick="pobierz(+)">+</button>
+        </div>
+        
+        <div id="rzad2">
+            <button  class="liczby" onclick="pobierz(7)">7</button>
+            <button  class="liczby" onclick="pobierz(8)">8</button>
+            <button  class="liczby" onclick="pobierz(9)">9</button>
+            <button class="dzialania">-</button>
+        </div>
+        
+        <div id="rzad3">
+            <button class="liczby" onclick="pobierz(4)">4</button>
+            <button  class="liczby" onclick="pobierz(5)">5</button>
+            <button  class="liczby" onclick="pobierz(6)">6</button>
+            <button class="dzialania" onclick="pobierz(*)">X</button>
+        </div>
+        
+        <div id="rzad4">
+            <button  class="liczby" onclick="pobierz(1)">1</button>
+            <button  class="liczby" onclick="pobierz(2)">2</button>
+            <button  class="liczby" onclick="pobierz(3)">3</button>
+            <button class="dzialania" onclick="pobierz(/)">/</button>
+        </div>
+        
+        <div id="rzad5">
+            <button  class="dlugi liczby" onclick="pobierz(0)">0</button>
+            <button class="liczby" onclick="pobierz(.)">.</button>
+            <button class="liczby znakrownosci" onclick="oblicz()">=</button>
+        </div>
+        
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

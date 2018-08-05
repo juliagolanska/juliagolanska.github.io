@@ -1,0 +1,66 @@
+body div#kalkulator {
+    padding: 10px;
+    margin: 35px;
+    height: 300px;
+    width: 200px;
+    background-color: orange;
+}
+
+body div#rzad0 {
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    background-color: gray;
+    color: white;
+}
+
+body button.dzialania {
+    background-color: gray;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0px 2px black;
+    margin-right: 10px;
+
+}
+
+body button.liczby {
+    background-color: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0px 2px ;
+    margin-right: 10px;
+
+}
+
+body button.dlugi {
+    width: 70px;
+    height: 30px;
+    border: none;
+    margin-right: 10px;
+}
+
+body button.znakrownosci{
+    background-color: limegreen;
+    box-shadow: 0px 2px black;
+}
+
+body button.del{
+    background-color: deepskyblue;
+    color: white;
+    font-size: 20px;
+    border-radius: 10%;
+    box-shadow: 0px 2px black;
+}
+
+#rzad0, #rzad1, #rzad2, #rzad3, #rzad4, #rzad5{
+    display: flex;
+    margin: 10px;
+}
