@@ -1,0 +1,93 @@
+body h1 span {
+    color: #1ac056;
+}
+
+/*Nav start*/
+
+#navbarNav {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 100; 
+}
+
+#navbarNav a {
+    color: white;
+}
+
+#navbarNav a:hover {
+    color: #1ac056;
+}
+
+/*Nav stop*/
+
+/*Header start*/
+
+#main-header {
+    height: 100vh;
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+#main-header #content {
+    left: 0;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+#main-header>div#content>h1#name{
+    font-size: 150px;
+    margin: 0;
+    font-weight: 100;
+}
+
+#main-header>div#content>h1#name>span.green{
+   color: #1ac056; 
+   font-weight: 400;
+}
+
+#main-header>div#content>h2#job{
+    font-size: 50px;
+}
+
+/*Header stop*/
+
+/*About start*/
+
+#about hr{
+    width: 100vw;
+}
+
+#about .container {
+   margin: 0 0;
+   padding: 10px;   
+}
+
+#about .row {
+    width: 90vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#about img {
+    width: 70%;
+}
+
+/*About stop*/
+
+/*start*/
+/*stop*/
+
+/*start*/
+/*stop*/
+
+/*start*/
+/*stop*/
